@@ -1,0 +1,57 @@
+% !TEX TS-program = luatex
+% Awesome Source CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Author:
+% Christophe Roger (Darwiin)
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont,alternative]{yaac-another-awesome-cv}
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Alegreya}  % or "Palatino", etc.
+
+\name{Mallikarjuna}{Tupakula}
+\tagline{AI Researcher | Multimodal AI | Language Modeling | AI Safety}
+% \photo{2.5cm}{darwiin}
+\socialinfo{
+	\linkedin{neuralnerd}
+	\github{MALLI7622}
+	\smartphone{+19253418964}
+    % \email{mt3998@rit.edu}
+    \website{https://malli7622.github.io/}{malli7622.github.io}
+    \twitter{_neuralnerd_}
+	\email{tmallikarjuna111@gmail.com}
+    \googlescholar{https://scholar.google.com/citations?user=36baViwAAAAJ}
+}
+
+\begin{document}
+
+	\makecvheader
+    \vspace{-0.8em}
+
+	\makecvfooter
+		{\textsc{\today}} % \selectlanguage{english}\today
+		{\textsc{Mallikarjuna Tupakula - Resume}}
+		{\thepage}
+
+	\input{section_headline}
+	\input{section_experience_short}		% Section expérience
+    \input{section_education_short}
+    \input{section_projets}
+    \input{section_awards}
+    \input{section_teaching}
+    \input{section_competences}				% Section compétence
+    \input{section_volunteering}
+	% \input{section_langues}					% Section langues
+	% \input{section_scolarite}				% Section scholarité
+	% %\input{section_interets}				% Section intérêts
+	
+	% \input{section_references} 				% Section références
+
+
+\end{document}
