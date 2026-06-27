@@ -1,0 +1,10 @@
+.DS_Store
+.texlive-cache/
+.texlive-config/
+*.aux
+*.log
+*.out
+*.synctex.gz
+Mallikarjuna_CV.pdf
+cv.pdf
+tailoring-backups/

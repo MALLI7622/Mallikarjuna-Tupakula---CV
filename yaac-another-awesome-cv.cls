@@ -61,7 +61,6 @@
 \RequirePackage{fontspec} 					                 % for loading fonts
 \RequirePackage{url,parskip} 	    % other packages for formatting
 \RequirePackage[usenames,dvipsnames]{xcolor}
-\RequirePackage{fullpage}
 \RequirePackage[margin=1.5cm]{geometry}
 \RequirePackage{fontawesome}
 \RequirePackage{hyperref}
